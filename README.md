@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Build cesium-react-library package
+
+We have to build the cesium-react-library by ourselves once we install it from github
+
+```bash
+cd node_modules/cesium-react-library
+npm install
+npm run build
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

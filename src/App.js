@@ -1,4 +1,5 @@
 import React from 'react';
+import { Map } from 'cesium-react-library';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+				  <Map />
+			  </div>
       </header>
     </div>
   );
